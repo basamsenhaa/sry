@@ -1,19 +1,17 @@
-#🇳‌🇮‌🇰‌🇭‌🇮‌🇱‌
-# Add your details here and then deploy by clicking on HEROKU Deploy button
 import os
 from os import environ
 
-API_ID = int(environ.get("API_ID", "26375665"))
-API_HASH = environ.get("API_HASH", "b1b90b6239f531fe1db2b20af73807ad")
-BOT_TOKEN = environ.get("BOT_TOKEN", "8255357547:AAFUN7ZgAjzkbZirUANsGbgJ-TT1VIap64o")
+API_ID = int(environ.get("API_ID", "20100739"))
+API_HASH = environ.get("API_HASH", "3c15b7b5ded9f13b4fb269cfd796a639")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7606847523:AAEbbNUmQnQXJU0e0_W7oRr0B_iS7_iDGRA")
 
-OWNER = int(environ.get("OWNER", "6916257920"))
+OWNER = int(environ.get("OWNER", "6749667797"))
 CREDIT = environ.get("CREDIT", "𝐒нɑᎥ𝚝ɑη")
 
-TOTAL_USER = os.environ.get('TOTAL_USERS', '6916257920,6834250190,6312355641').split(',')
+TOTAL_USER = os.environ.get('TOTAL_USERS', '6749667797,6834250190,6312355641,6328680244').split(',')
 TOTAL_USERS = [int(user_id) for user_id in TOTAL_USER]
 
-AUTH_USER = os.environ.get('AUTH_USERS', '6916257920,6834250190,6312355641').split(',')
+AUTH_USER = os.environ.get('AUTH_USERS', '6749667797,6834250190,6312355641,6328680244').split(',')
 AUTH_USERS = [int(user_id) for user_id in AUTH_USER]
 if int(OWNER) not in AUTH_USERS:
     AUTH_USERS.append(int(OWNER))
